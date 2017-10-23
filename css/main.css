@@ -1,7 +1,15 @@
-body,p{
+body,p,input,button,ul{
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
+}
+img{ vertical-align:bottom }
+body{
+	position: relative;
+}
+.tm-temp>img{
+	width: 100%;
+	display: block;
 }
 .tm-title{
 	height: 30px;
@@ -14,6 +22,9 @@ body,p{
 }
 .fr{
 	float: right;
+}
+.color-red{
+	color: #ff0036 !important;
 }
 .tm-kuang{
 	width: 70%;
@@ -44,4 +55,69 @@ body,p{
 	border-bottom: 1px solid #e5e5e5;
 	border-right: 1px solid #e5e5e5;
 	margin-left: -1px;/*由于加了1px边框，下拉框空白的部分向右偏了1px，用这个让它偏回去*/
+}
+/*banner的样式----------------------------------------------------------*/
+.tm-banner-img{
+	position: absolute;
+	left: 237px;
+	top: 133px;
+}
+.tm-banner{
+	width: 70%;
+	margin: 50px auto 0;
+}
+.tm-search{
+	margin-left: 250px;
+}
+.tm-input{
+	margin-right: 179px;
+	background-color: #ff0036;
+}
+.tm-input>input{
+	width: 550px;
+	height: 40px;
+	border: 1px solid #ff0036;
+}
+.tm-input>button{
+	width: 122px;
+	height: 40px;
+	border: 0;
+	background-color: #ff0036;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.tm-search a, .tm-search a:hover, .tm-search span{
+	margin:0 5px;
+	text-decoration: none;
+	color: #bcbcbc;
+	font-size: 15px;
+}
+.tm-span{
+	margin-top: 10px; 
+}
+.tm-title2{
+	width: 70%;
+	margin: 0 auto 0;
+}
+.tm-title2>a{
+	color: #000;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.tm-title2>a:hover{
+	color: #ff0036;
+}
+#img1{
+	height: 42px;
+	line-height: 55px;
+	text-indent: 15px;
+	display: inline-block;
+	background-color: #ff0036;
+	color:#fff;
+	width: 200px;
+}
+hr{
+	background-color: #ff0036;
 }
